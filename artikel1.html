@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Termux - MrXCYberX</title>
+    <style>
+        body { font-family: Arial; margin: 0; padding: 0; background: #0d1117; color: #c9d1d9; }
+        header { background: #161b22; padding: 20px; text-align: center; border-bottom: 2px solid #00ff41; }
+        header h1 { color: #00ff41; margin: 0; }
+        header a { color: #58a6ff; text-decoration: none; }
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #161b22; border-radius: 10px; }
+        h2 { color: #00ff41; }
+        h3 { color: #58a6ff; }
+        pre { background: #0d1117; padding: 15px; border-radius: 5px; overflow-x: auto; color: #00ff41; }
+        a { color: #58a6ff; text-decoration: none; }
+        footer { text-align: center; padding: 20px; color: #8b949e; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚡ MrXCYberX</h1>
+        <a href="index.html">← Kembali ke Beranda</a>
+    </header>
+    <div class="container">
+        <h2>🔰 Cara Install Termux di Android (Terbaru 2026)</h2>
+        
+        <h3>A. Download Termux dari F-Droid</h3>
+        <p>Jangan download dari Play Store karena versi outdated. Buka F-Droid.org, cari "Termux", download APK terbaru.</p>
+        
+        <h3>B. Install APK dan Beri Izin</h3>
+        <p>Install APK seperti biasa. Buka aplikasi, beri izin penyimpanan. Terminal akan muncul.</p>
+        
+        <h3>C. Update Repository dan Install Package Dasar</h3>
+        <pre>
+pkg update -y
+pkg upgrade -y
+pkg install git python nano -y
+termux-setup-storage</pre>
+        
+        <h3>D. Install Tools Hacking Tambahan</h3>
+        <pre>
+pkg install nmap hydra aircrack-ng -y
+pkg install php curl wget -y
+pip install requests colorama</pre>
+        
+        <h3>E. Verifikasi Instalasi</h3>
+        <pre>
+python --version
+nmap --version
+git --version</pre>
+        
+        <p>✅ Termux siap digunakan. Lanjut ke tutorial hacking berikutnya.</p>
+    </div>
+    <footer>
+        <p>© 2026 MrXCYberX | Konten untuk edukasi</p>
+    </footer>
+</body>
+</html>
